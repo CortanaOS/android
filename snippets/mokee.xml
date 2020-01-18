@@ -2,8 +2,15 @@
 <manifest>
   <!-- MoKee Open Source additions -->
   <project path="android" name="MoKee/android" />
+  <project path="libcore" name="rk3288-dev/android_libcore" />
   <project path="bootable/recovery-twrp" name="MoKee/android_bootable_recovery-twrp" groups="pdk" />
-  <project path="external/bash" name="MoKee/android_external_bash" />
+  <project path="vendor/widevine" name="rk3288-dev/android_vendor_widevine" />
+  <project path="device/rockchip/common" name="rk3288-dev/android_device_rockchip_common" />
+  <project path="device/firefly/rk3288" name="rk3288-dev/android_device_firefly_rk3288" />
+  <project path="kernel/firefly/rk3288" name="rk3288-dev/android_kernel_firefly_rk3288" />
+  <project path="external/bluetooth/bluedroid" name="rk3288-dev/android_external_bluetooth_bluedroid" />
+  <project path="external/chromium/org" name="rk3288-dev/android_external_chromium_org" />
+  <project path="external/e2fsprogs" name="rk3288-dev/android_external_e2fsprogs" />
   <project path="external/exfat" name="ThirdProject/android_external_exfat" remote="third" />
   <project path="external/ffmpeg" name="ThirdProject/android_external_ffmpeg" remote="third" />
   <project path="external/fuse" name="ThirdProject/android_external_fuse" remote="third" />
@@ -32,6 +39,9 @@
   <project path="hardware/ti/wlan" name="MoKee/android_hardware_ti_wlan" />
   <project path="hardware/ti/wpan" name="MoKee/android_hardware_ti_wpan" />
   <project path="packages/apps/Aegis" name="MoKee/android_packages_apps_Aegis" />
+  <project path="packages/apps/Browser" name="rk3288-dev/android_packages_apps_Browser" />
+  <project path="packages/apps/Calculator" name="rk3288-dev/android_packages_apps_Calculator" />
+  <project path="packages/apps/Gallery2" name="rk3288-dev/android_packages_apps_Gallery2" />
   <project path="packages/apps/AudioFX" name="MoKee/android_packages_apps_AudioFX" />
   <project path="packages/apps/MKCenter" name="MoKee/android_packages_apps_MKCenter" />
   <project path="packages/apps/MKParts" name="MoKee/android_packages_apps_MKParts" />
@@ -39,8 +49,10 @@
   <project path="packages/apps/Exchange" name="ThirdProject/android_packages_apps_Exchange" remote="third" />
   <project path="packages/apps/FMRadio" name="MoKee/android_packages_apps_FMRadio" />
   <project path="packages/apps/Lawnchair" name="MoKee/android_packages_apps_Lawnchair" />
+  <project path="packages/apps/Launcher3" name="MoKee/android_packages_apps_Launcher3" />
   <project path="packages/apps/LockClock" name="MoKee/android_packages_apps_LockClock" />
   <project path="packages/apps/Profiles" name="MoKee/android_packages_apps_Profiles" />
+  <project path="packages/apps/SoundRecorder" name="rk3288-dev/android_packages_apps_SoundRecorder" />
   <project path="packages/apps/Recorder" name="MoKee/android_packages_apps_Recorder" />
   <project path="packages/apps/SetupWizard" name="MoKee/android_packages_apps_SetupWizard" />
   <project path="packages/apps/Snap" name="MoKee/android_packages_apps_Snap" />
@@ -56,6 +68,12 @@
   <project path="vendor/mk" name="MoKee/android_vendor_mk" />
   <project path="vendor/mksdk" name="MoKee/mk_platform_sdk" />
   <project path="vendor/mk-priv" name="MoKee/android_vendor_mk-priv" />
+  <project path="vendor/widevine" name="rk3288-dev/android_vendor_widevine" />
+  <project path="vendor/rockchip/pppoe" name="rk3288-dev/android_vendor_rockchip_pppoe" />
+  <project path="vendor/rockchip/build" name="rk3288-dev/android_vendor_rockchip_build" />
+  <project path="vendor/rockchip/common" name="rk3288-dev/android_vendor_rockchip_common" />
+  <project path="vendor/rockchip/rkflashtool" name="rk3288-dev/android_vendor_rockchip_rkflashtool" />
+  <project path="u-boot/firefly/rk3288" name="rk3288-dev/android_u-boot_firefly_rk3288" />
 
   <!-- MoKee Private additions -->
   <project path="packages/resources/MoKeePay" name="MoKee/android_packages_resources_MoKeePay" />
