@@ -261,7 +261,7 @@
   <project path="external/rootdev" name="platform/external/rootdev" groups="pdk" remote="aosp" />
   <project path="external/safe-iop" name="platform/external/safe-iop" groups="pdk" remote="aosp" />
   <project path="external/scrypt" name="platform/external/scrypt" groups="pdk" remote="aosp" />
-  <project path="external/selinux" name="platform/external/selinux" groups="pdk" remote="aosp" />   <project path="external/selinux" name="platform/external/selinux" groups="pdk" remote="aosp" />
+  <project path="external/selinux" name="platform/external/selinux" groups="pdk" remote="aosp" />
   <project path="external/scpolicy" name="rk3288-dev/android_external_sepolicy" groups="pdk" />
   <project path="external/sfntly" name="platform/external/sfntly" groups="pdk,qcom_msm8x26" remote="aosp" />
   <project path="external/skia" name="rk3288-dev/android_external_skia" groups="pdk,qcom_msm8x26" />
@@ -375,7 +375,7 @@
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" groups="omap3,pdk" remote="aosp" />
   <project path="hardware/ti/omap4-aah" name="platform/hardware/ti/omap4-aah" groups="omap4-aah,pdk" remote="aosp" />
   <project path="hardware/ti/omap4xxx" name="ThirdProject/android_hardware_ti_omap4xxx" groups="omap4,pdk" remote="third" />
-  <project path="libcore" name="MoKee/android_libcore" groups="pdk" />
+  <project path="libcore" name="rk3288-dev/android_libcore" groups="pdk" />
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk" remote="aosp" />
   <project path="ndk" name="platform/ndk" groups="generic_fs" remote="aosp" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
