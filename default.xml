@@ -506,7 +506,7 @@
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" remote="aosp" />
   <project path="tools/test/connectivity" name="platform/tools/test/connectivity" groups="pdk" remote="aosp" />
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" remote="aosp" />
-  <project path="libcore" name="rk3288-dev/android_libcore" groups="pdk" />
+  <project path="libcore" name="rk3288-dev/android_libcore" branch="master" groups="pdk" />
 
   <include name="snippets/mokee.xml" />
 
