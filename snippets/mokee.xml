@@ -4,7 +4,6 @@
   <project path="android" name="MoKee/android" />
   <project path="libcore" name="rk3288-dev/android_libcore" />
   <project path="bootable/recovery-twrp" name="MoKee/android_bootable_recovery-twrp" groups="pdk" />
-  <project path="vendor/widevine" name="rk3288-dev/android_vendor_widevine" />
   <project path="device/rockchip/common" name="rk3288-dev/android_device_rockchip_common" />
   <project path="device/firefly/rk3288" name="rk3288-dev/android_device_firefly_rk3288" />
   <project path="kernel/firefly/rk3288" name="rk3288-dev/android_kernel_firefly_rk3288" />
